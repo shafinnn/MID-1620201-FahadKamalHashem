@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #0c95fe;
+}
+
+header {
+    background-color: #99e3f6;
+    color: #0c95fe;
+    padding: 30px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main.consumer1{
+    display: flex;
+    flex-direction: column;
+}
+main.consumer2{
+    display: flex;
+    flex-direction: column;
+}
+main.delivery{
+    display: flex;
+    flex-direction: column;
+}
+/* Product grid */
+main .product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+
+/* Product card */
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 35%;
+    border-radius: 200px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Contact page */
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+main form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+main form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main form button:hover {
+    background-color: #555;
+}
